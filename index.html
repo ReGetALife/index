@@ -123,7 +123,10 @@ window.setInterval(function(){ShowCountDown(2017,2,9,'divdown1');}, interval);
             <article id="me" class="panel">
                 <header>
                     <h1>I'm Lee</h1>
-                    <p>用心编写bug，倾情演唱忘词。</p>
+					<p> 
+					<span class="typed-quotes"></span>
+					<span class="typed-cursor"> </span> 
+					</p>
                 </header>
                 <a href="http://solidays.tk/" class="jumplink pic">
                     <span class="arrow icon fa-chevron-right"><span></span></span>
@@ -132,6 +135,22 @@ window.setInterval(function(){ShowCountDown(2017,2,9,'divdown1');}, interval);
             </article>
             <!-- Main first e-->
         </div>
+
+
+<script src="https://www.typora.io/lib/typed.js-master/js/typed.js"></script>
+<script>
+		$(function () {
+			$(".typed-quotes").typed({
+				strings: ["用心编写bug，倾情演唱忘词。", "我是李华（骗你的）。", "这里是 **SOLIDAYS🍭** 欢迎来到我的小站。😋"],
+				typeSpeed: 50,
+				contentType: 'html',
+				loop: true,
+				backDelay: 1000
+			});
+		});
+
+</script>
+
         
 
         <!-- 文章列表   s -->

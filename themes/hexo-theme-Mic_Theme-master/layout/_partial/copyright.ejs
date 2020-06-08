@@ -1,0 +1,29 @@
+        <div id="copyright">
+		<!--
+            <ul>
+                <li>&copy;Powered By <a href="https://hexo.io/zh-cn/" style="border-bottom: none;">hexo</a></li>
+                <li>Design: <a href="//miccall.tech " style="border-bottom: none;">miccall</a></li>
+            </ul>
+            <% if(theme.busuanzi.enable === true ) { %>
+            	<span id="busuanzi_container_site_pv"><%- date(Date.now(), 'YYYY') %>总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+			<% } else { %>
+				<span id="busuanzi_container_site_pv"> <%- date(Date.now(), 'YYYY') %> </span> 
+			<% } %>
+			-->
+			
+			
+
+            
+            Copyright &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %>
+            <br>
+			<ul>
+            <li id="busuanzi_container_site_uv">
+                <i class="fa fa-user"></i>
+                <span id="busuanzi_value_site_uv"></span>
+            </li>
+            <li id="busuanzi_container_site_pv">
+                <i class="fa fa-eye"></i>
+                <span id="busuanzi_value_site_pv"></span>
+            </li>
+			</ul>
+        </div>

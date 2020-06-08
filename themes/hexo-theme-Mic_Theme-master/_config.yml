@@ -1,0 +1,104 @@
+﻿# ---------------------------------------------------------------
+# Site Information Settings
+# ---------------------------------------------------------------
+
+# Head info
+head:
+    favicon: "https://www.solidays.tk/index/favicon.ico"
+    high_res_favicon: "https://www.solidays.tk/index/images/bg.jpg"
+    apple_touch_icon: "https://www.solidays.tk/index/img/logo_miccall.png"
+    keywords: miccall？
+
+Intro:
+    name: SOLIDAYS
+    slogan: "捉紧 生命浓度 坦白流露 感情和态度 <br/> 停下时光 静止 衰老"
+    HeadButton: SOLIDAYS
+
+Nav:
+    Home_name: 主页
+    is_use_categories : false
+    categories_name: 分类
+    is_use_archives : false
+    archives_name: 归档
+    icon:
+        github: 
+            use: true
+            link: https://github.com/ReGetALife
+        Twitter:
+            use: false
+            link: 
+        Facebook:
+            use: false
+            link: 
+        Instagram:
+            use: false
+            link:
+    pages:
+        #简历: 
+        #    link: "/about/"
+        #团队 :
+        #    link: "/group/"
+        #图库 :
+        #    link: "/gallery/"
+        博客:
+            link: "https://www.solidays.tk/"
+        喵喵:
+            link: "https://www.solidays.tk/miao/"
+        #自定义标签名
+        #   link：“路径”
+
+MainFirst:
+    name: I'M LEE
+    description: 用心编写bug，倾情演唱忘词。
+    pic_url: //solidays-1252908379.cosgz.myqcloud.com/%282%29.jpg
+    goto_ulr: "https://www.solidays.tk/"
+
+Gallery :
+    title: Mr.metro 
+    description: Just another fine responsive 
+
+# ---------------------------------------------------------------
+# Style Settings
+# ---------------------------------------------------------------
+
+# Custom code Render System 自定义代码渲染 
+# default dark funky okaidia twilight coy solarized  可选项  
+# link to review : http://prismjs.com/index.html   官网预览
+prism: coy
+
+# Custom Fonts
+fonts: FZLTCXHJW, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "FZLTCXHJW", Arial, sans-serif
+
+# Comment Systems
+# Available value of "use":
+#     duoshuo | disqus | disqus_click | changyan
+comment:
+    use:
+    shortname:
+    duoshuo_thread_key_type:
+    duoshuo_embed_js_url:
+    changyan_appid:
+    changyan_conf:
+    changyan_thread_key_type: path
+
+# Search Systems
+# Available value:
+#     swiftype | google | local
+search:
+    use:
+    swiftype_key: Just another fine responsive  
+    
+
+# Leancloud Views
+leancloud:
+    enable: false
+    app_id: #你的 app_id
+    app_key: #你的 app_key
+    av_core_mini: "https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"
+
+# Busuanzi 不蒜子 Views
+busuanzi:
+    enable: true
+    all_site_uv: true
+    post_pv: true
+    busuanzi_pure_mini_js: "https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
